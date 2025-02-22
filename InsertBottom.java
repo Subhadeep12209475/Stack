@@ -6,8 +6,7 @@ public class insertBottom{
             s.push(data);
             return;
         }
-        int top=s.peek();
-        s.pop();
+        int top=s.pop();
         insert(s,data);
         s.push(top);
     }
